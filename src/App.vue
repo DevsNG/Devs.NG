@@ -62,38 +62,65 @@ export default {
 </script>
 
 <style>
-  /* Import bootstrap here for global styling of all the components */
-  @import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
-  @import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto:700');
+/* Import bootstrap here for global styling of all the components */
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat|Rubik'); */
+
+@font-face {
+font-family: "San Francisco Display Medium";
+font-style: normal;
+font-weight: 400;
+src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.ttf) format("truetype")
+}
+
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  color: red;
+}
   
-  body{
-    font-family: 'PT Sans', sans-serif;
-  }
-  #header{
-    background-color: #F8FCFF;
-    height: 550px !important;
-  }
-  #header .container{
-    padding-top: 20px;
-  }
-  #map{
-    background-color: #F6FFF9;
-  }
-  #map .container{
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-  }
-  #conversations{
-    background: url("./assets/images/code-bg.png") no-repeat center;
-    background-size: 100%;
-    height: 280px;
-  }
-  #footer{
-    height: 120px;
-    background-color: #22262B;
-    color: white;
-  }
-  button:hover{
-    color: white !important;
-  }
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Rubik', sans-serif;
+}
+
+#header {
+  background-color: #F8FCFF;
+  height: 550px !important;
+}
+
+#header .container {
+  padding-top: 20px;
+}
+
+#map {
+  background-color: #F6FFF9;
+}
+
+#map .container {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+#conversations {
+  background: url("./assets/images/code-bg.png") no-repeat center;
+  background-size: cover;
+  height: 280px;
+}
+
+#footer {
+  height: 120px;
+  background-color: #22262B;
+  color: white;
+}
+
+button:hover {
+  color: white !important;
+}
+
+.text-silenced {
+color: #878F97;
+}
 </style>

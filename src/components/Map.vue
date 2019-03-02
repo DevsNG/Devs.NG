@@ -4,10 +4,10 @@
       <img src="../assets/map.svg">
     </div>
     <div class="col-md-6 align-self-center self">
-      <h3 class="text-lead">
+      <h2 style="color: #353B41;">
         Armed with trending stacks
-      </h3>
-      <p class="text-muted pt-3">
+      </h2>
+      <p class="text-silenced pt-3">
         Our developers pride themselves with the latest programming skills
       </p>
     </div>
@@ -15,12 +15,12 @@
 </template>
 
 <style scoped>
-.self{
+.self {
   padding: 0 0 0 80px;
 }
-h3{
-  font-family: 'Roboto', serif;
-  font-weight: bold;
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
   font-size: 28px;
 }
 </style>

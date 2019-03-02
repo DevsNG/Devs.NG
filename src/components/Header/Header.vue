@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar container navbar-expand-md navbar-light bg-light">
       <img src="../../assets/logo.svg" alt="DevsNg Logo">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
             <a href="#" class="nav-link">Link 2</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Link 2</a>
+            <a href="#" class="nav-link">Link 3</a>
           </li>
         </ul>
       </div>
@@ -43,11 +43,13 @@ export default {
 </script>
 
 <style scoped>
-.navbar{
+.navbar {
   background-color: transparent !important;
 }
-li{
+li {
+  font-family: "San Francisco Display Medium";
   color: #4a5158;
+  font-weight: 600;
 }
 </style>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="px-5">
-    <h3 class="text-lead text center"></h3>
+    <h3 class="text-lead text-center p-3">Community contributors.</h3>
     <div class="row">
       <div class="col-md-3">
         <div class="card shadow-lg p-3 mb-5">
@@ -43,11 +43,21 @@
 </template>
 
 <style scoped>
-.card-title{
+h3 {
+  font-weight: 600;
+  color: #353B41;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
   font-size: 18px;
   font-weight: bold;
 }
-.card-text{
+
+.card-text {
   margin-top: 2px;
   font-size: 14px;
 }
