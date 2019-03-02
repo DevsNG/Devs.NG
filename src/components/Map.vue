@@ -1,7 +1,7 @@
 <template>
   <div class="row d-flex">
     <div class="col-md-6">
-      <img src="../assets/map.svg">
+      <img class="img-fluid" src="../assets/map.svg">
     </div>
     <div class="col-md-6 align-self-center self">
       <h2 style="color: #353B41;">

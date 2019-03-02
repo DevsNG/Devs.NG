@@ -6,7 +6,7 @@
       <button class="btn btn-sm shadow">Join the conversations</button>
     </div>
     <div class="col-md-6 pl-5">
-      <img src="../../assets/header_body_img.svg" alt="Header body's image" class="pl-5">
+      <img class="img-fluid pl-5" src="../../assets/header_body_img.svg" alt="DevsNG-SVG" >
     </div>
   </div>
 </template>

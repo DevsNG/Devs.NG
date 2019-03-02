@@ -13,21 +13,21 @@
     
     <div class="row pl-5 pt-5">
       <div class="col-md-4 p-4">
-        <img src="../assets/drive_1st.svg">
+        <img class="img-fluid" src="../assets/drive_1st.svg">
         <h5 class="text-lead d-inline pl-3">Think.</h5>
         <p class="text-silenced p-2 pt-3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eius blanditiis et!
         </p>
       </div>
       <div class="col-md-4 p-4">
-        <img src="../assets/drive_2nd.svg">
+        <img class="img-fluid" src="../assets/drive_2nd.svg">
         <h5 class="text-lead d-inline pl-3">Plan.</h5>
         <p class="text-silenced p-2 pt-3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste maxime consectetur cum.
         </p>
       </div>
       <div class="col-md-4 p-4">
-        <img src="../assets/drive_3rd.svg">
+        <img class="img-fluid" src="../assets/drive_3rd.svg">
         <h5 class="text-lead d-inline pl-3">Execute.</h5>
         <p class="text-silenced p-2 pt-3">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo ratione optio eum.
